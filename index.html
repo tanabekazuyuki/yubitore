@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>ユビトレ</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<main>
+		<div class="canvas-wrapper">
+			<canvas id="myCanvas"></canvas>
+		</div>
+
+		<div class="content">
+			<div class="content-item">
+				<p id="speed">速度 5</p>
+				<input type="button" value="+" onclick="speedUp()">
+				<input type="button" value="-" onclick="speedDown()">
+			</div><!--/speed-->
+			<div class="content-item">
+				<p id="count">回数 2</p>
+				<input type="button" value="+" onclick="countUp()">
+				<input type="button" value="-" onclick="countDown()">
+			</div><!--/score-->
+		</div><!--/content-->
+	</main>
+    
+    <script src="js/script.js"></script>
+</body>
+</html>
