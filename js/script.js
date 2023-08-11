@@ -32,7 +32,6 @@ for (let i = 0; i < 8; i++) {
 key.push = false;
 key.value = -1;
 
-
 canvas.width = 550; // canvas 幅
 canvas.height = 460;// canvas 高さ
 
